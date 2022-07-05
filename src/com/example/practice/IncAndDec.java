@@ -27,5 +27,14 @@ public class IncAndDec {
 
 
 
+        /*
+            Now, using System.out.println(), print the value of your variable as you increment it
+            note whether the value of the variable that is returned is already incremented,
+            or if the returned value is not yet incremented
+         */
+
+
+
+
     }
 }
