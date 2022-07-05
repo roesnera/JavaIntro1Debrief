@@ -15,6 +15,15 @@ public class MathOps {
             (+, -, *, /, %)
          */
 
+        int myChildren = 3;
+        int myCousins = 333;
+
+        System.out.println(myChildren + myCousins);
+        System.out.println(myChildren - myCousins);
+        System.out.println(myChildren * myCousins);
+        System.out.println(myChildren / myCousins);
+        System.out.println(myChildren % myCousins);
+
 
 
 

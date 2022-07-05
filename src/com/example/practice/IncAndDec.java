@@ -5,25 +5,22 @@ public class IncAndDec {
         /*
             INCREMENTING AND DECREMENTING
             in this section, we will apply the increment and decrement operators
-
             1. Create an integer variable that stores the value 10
-
             2. using System.out.println(), output "Initial value: " followed by the value of this variable
-
             3. then use the increment operator on this variable
             followed by another System.out.println() call with the output "Value after incrementation: "
             followed by the value of the variable
-
             4. Then repeat step 3 with the decrement operator
             (make sure to adjust the string output appropriately)
-
-
          */
+            int myNumber = 10;
+            System.out.println("Initial value: " + myNumber);
 
+            myNumber++;
+            System.out.println("Value after incrementation: " + myNumber);
 
-
-
-
+            myNumber--;
+            System.out.println("Value after decrementation: " + myNumber);
 
 
 
@@ -33,6 +30,8 @@ public class IncAndDec {
             or if the returned value is not yet incremented
          */
 
+            System.out.println("Keep counting upward of " + myNumber++); //not incremented
+            System.out.println(myNumber); //incremented by 1
 
 
 
