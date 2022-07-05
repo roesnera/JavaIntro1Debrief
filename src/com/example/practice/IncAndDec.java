@@ -30,7 +30,9 @@ public class IncAndDec {
             or if the returned value is not yet incremented
          */
 
-            System.out.println(myNumber);
+            System.out.println("Keep counting upward of " + myNumber++); //not incremented
+            System.out.println(myNumber); //incremented by 1
+
 
 
     }
