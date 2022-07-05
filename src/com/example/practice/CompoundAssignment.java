@@ -19,7 +19,25 @@ public class CompoundAssignment {
             the final result should be a variable that holds the original value of 1
          */
 
+       /* int num = 1;
+        int randomNum = num += 3;
+        System.out.println(randomNum);
 
+        int num = 1;
+        int randomNum = num *= 4;
+        System.out.println(randomNum);*/
+
+        int num = 1;
+        int randomNum = num -= 8;
+        System.out.println(randomNum);
+
+        /*int num = 1;
+        int randomNum = num /= 2;
+        System.out.println(randomNum);*/
+
+        /*int num = 1;
+        int randomNum = num %= 3;
+        System.out.println(randomNum);*/
 
 
 

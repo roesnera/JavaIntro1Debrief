@@ -21,6 +21,15 @@ public class IncAndDec {
          */
 
 
+        int incDecVar = 6;
+        System.out.println("Initial value :" + incDecVar);
+        incDecVar++;
+        System.out.println("Value after incrementing :"+ incDecVar);
+        incDecVar--;
+        System.out.println("value after decrementing :"+ incDecVar);
+
+
+
 
 
 
@@ -33,7 +42,7 @@ public class IncAndDec {
             or if the returned value is not yet incremented
          */
 
-
+        System.out.println("Value of Variable while incrementing in sout : "+ (incDecVar));
 
 
     }
