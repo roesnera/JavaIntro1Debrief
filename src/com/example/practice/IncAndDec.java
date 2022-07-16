@@ -19,7 +19,14 @@ public class IncAndDec {
 
 
          */
+            int value = 10;
+            System.out.println("Initial value: " + value);
 
+            value++;
+            System.out.println("Value after incrementation: " +value);
+
+            value--;
+            System.out.println("Value after decrementation: " + value);
 
 
 
@@ -33,7 +40,14 @@ public class IncAndDec {
             or if the returned value is not yet incremented
          */
 
-
+            int result = value;
+            result++;
+            if(result > value || result < value){
+                System.out.println(result);
+                System.out.println("The value is already incremented");
+            } else {
+                System.out.println("It is not incremented");
+            }
 
 
     }

@@ -15,7 +15,13 @@ public class MathOps {
             (+, -, *, /, %)
          */
 
-
+            int a = 6;
+            int b = 4;
+            System.out.println("Add two variables: " + (a + b));
+            System.out.println("Subtract two variables: " + (a - b));
+            System.out.println("Multiply two variables: "+ (a * b));
+            System.out.println("Divide two variables: " + (a / b));
+            System.out.println("Modulo of two variables : " + (a % b));
 
 
 
